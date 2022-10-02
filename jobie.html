@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Job Portal</title>
+        <link rel="stylesheet" href="jobie.css">
+        <script src="https://kit.fontawesome.com/833294ef86.js" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+
+
+    </div>
+</div>
+
+<!--Navbar section-->
+<nav class="navbar">
+    <h2 class="navbar-logo"><a href="#">Jobie</a></h2>
+
+<div class="navbar-menu">
+    <a href="#jobs">Jobs</a>
+    <a href="#companies">Companies</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#blogs">Blogs</a>
+</div>
+
+<a href="#" class="sign">Hire Me</a>
+
+<div class="menu-toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</div>
+
+</nav>
+<!--end-->
+<!--header-->
+<header>
+    <img src="jobs.jpg" class= "phot" alt="">
+
+    <h1 class="header-title">
+         YOUR  <span> PERFECT JOB</span> FINDER.
+    </h1>
+    <button class="reg-buttons">Remote Jobs</button>
+   <button class="reg-button">Register</button>
+</header>
+<!--header ends here-->
+<!--search-->
+
+<div class="search_wrapper">
+    <div class="search-box">
+
+        <div class="search-card">
+            <input class="search-input" type="text" placeholder="Job title or key"> 
+       <button class="search-button">Search</button>
+        </div>
+    </div>
+</div>
+<!--search end-->
+<!--filter box-->
+
+<div class="filter-box">
+    <div class="filter-dropdown">
+
+        <select class="filter-select" id="job-level" name="job-level">
+            <option>Job Level</option>
+            <option>Entry Level</option>
+            <option>Mid-Senior</option>
+            <option>Director</option>
+        </select>
+
+        <select class="filter-select" id="job-function" name="job-function">
+            <option>Job Function</option>
+            <option>IT</option>
+            <option>Management</option>
+            <option>Education</option>
+        </select>
+
+        <select class="filter-select" id="employment" name="employment">
+            <option>Employment Type</option>
+            <option>Internship</option>
+            <option>Part Time</option>
+            <option>Full Time</option> 
+        </select>
+
+        <select class="filter-select" id="location" name="location">
+            <option>Locations</option>
+            <option>Remote</option>
+            <option>Nigeria</option>
+            <option>US</option> 
+        </select>
+
+        <select class="filter-select" id="education" name="education">
+            <option>Education</option>
+            <option>High School</option>
+            <option>Bachelor's</option>
+            <option>Masters</option> 
+        </select>
+    </div>
+    <!--filterbox ends-->
+
+    <div class="filter-chosen">
+        <div class="chosen-card">
+            Remote <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="chosen-card">
+            Full Time <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="chosen-card">
+            Financial Tech <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+        <div class="chosen-card">
+           Entry Level <i class="fa-solid fa-circle-xmark"></i>
+        </div>
+    </div>
+</div>
+<!--filter card ends-->
+
+<!--job listing begins-->
+<section class="job-listing" id="jobs">
+     <div class="job-card">
+        <div class="job-name">
+            <img class="job-profile" src="microsoft.png">
+            <div class="job-details">
+                <h4>Microsoft</h1>
+                <h3> Senior Front-end Engineer</h3>
+                <p>We strongly believe in curiosity, equality and creativity.</p>
+            </div>
+        </div>
+
+        <div class="job-label">
+            <a class="label-a" href="#"> React</a>
+            <a class="label-b" href="#">Javascript</a>
+            <a class="label-c" href="#">CSS</a>
+        </div>
+        <div class="job-posted">
+            posted 20 mins ago
+        </div>
+    </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="Deloitte.png">
+                <div class="job-details">
+                    <h4>Deliotte</h4>
+                    <h3>UX/UI Designer</h3>
+                    <p>We strongly believe in curiosity, equality and creativity.</p>
+                </div>
+            </div>
+
+            <div class="job-label">
+                <a class="label-a" href="#">Figma</a>
+                <a class="label-b" href="#">Behance</a>
+                <a class="label-c" href="#">Adobe</a>
+            </div>
+            
+            <div class="job-posted">
+                posted 1hr ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="tesla2.jpg">
+                <div class="job-details">
+                    <h4>Tesla</h4>
+                    <h3>Digital Marketer</h3>
+                    <p>We strongly believe in curiosity, equality and creativity.</p>
+                </div>
+            </div>
+
+            <div class="job-label">
+                <a class="label-a" href="#">Canva</a>
+                <a class="label-b" href="#">Behance</a>
+                <a class="label-c" href="#">FIGMA</a>
+
+            </div>
+
+            <div class="job-posted">
+                posted 1hr ago
+            </div>
+        </div>
+
+        <div class="job-card">
+            <div class="job-name">
+                <img class="job-profile" src="youtube.png">
+                <div class="job-details">
+                    <h4>Youtube</h4>
+                    <h3>Software Engineeer</h3>
+                    <p>We strongly believe in curiosity, equality and creativity.</p>
+                </div>
+            </div>
+
+            <div class="job-label">
+                <a class="label-a" href="#">React</a>
+                <a class="label-b" href="#">Tailwindcss</a>
+                <a class="label-c" href="#">ES6</a>
+
+            </div>
+
+            <div class="job-posted">
+                posted 5 mins ago
+            </div>
+        </div>
+<button class="more-jobs">More</button>
+     </div>
+</section>
+
+
+<section class="join">
+    <div class= "join-details">
+        <h1 class="section-title">Start Your Search With Us</h1>
+   <p>Browse and connect with 400+ companies looking for you. Who are contributing to the world and we are willing to help you take the next step. </p>
+    </div>
+  
+    <button class="join-button"> Sign Up</button>
+</section>
+
+
+<!--company list-->
+
+<section class="featured" id="companies">
+    <h1 class="section-title">Companies</h1>
+    <p>Companies We Work with that are Currently Hiring</p>
+   
+<div class="featured-wrapper">
+    <div class="featured-card">
+        <img class="featured-image" src="Deloitte.png">
+       
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="youtube.png">
+       
+       
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="Amazonlogo.png">
+       
+        
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="AppleLogo.png">
+       
+      
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="microsoft.png">
+     
+      
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="orangelogo.png">
+     
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="samsung.png">
+       
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="metalogo.png">
+       
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="disneylogo.png">
+       
+    </div>
+
+    <div class="featured-card">
+        <img class="featured-image" src="netflixlogo.png">
+       
+    </div>
+
+</div>
+    </section>
+    <footer>
+        <div class="footer-wrapper">
+            <h3>Jobie</h3>
+            <p>Take Jobie for a spin</p>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </div>
+        <div class="footer-wrapper">
+            <h4>Explore</h4>
+            <a href="#">Top Companies</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Careers</a>
+        </div>
+        <div class="footer-wrapper">
+            <h4>About</h4>
+            <a href="#">FAQ</a>
+            <a href="#">Blog</a>
+            <a href="#">Get inspired</a>
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>Support</h4>
+            <a href="#">Customer Service</a>
+            <a href="#">Trust & Safety</a>
+            <a href="#">Partnership</a>
+        </div>
+
+        <div class="footer-wrapper">
+            <h4>Community</h4>
+            <a href="#">Community</a>
+            <a href="#">Invite a Friend</a>
+            <a href="#">Events</a>
+        </div>
+
+        <div class="footer-wrapper">
+        <p>copyright <i class="fa-regular fa-copyright"></i> Jobie.2022</p>
+        </div>
+    </footer>
+
+    </body>
+</html> 
